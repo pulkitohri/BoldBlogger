@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: image-service
+
+
+cloud:
+  aws:
+    credentials:
+      secret-key: ""
+      access-key: ""
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+app:
+  S3:
+    bucketName: BoldBlogger
