@@ -16,4 +16,4 @@ cloud:
       auto: false
 app:
   S3:
-    bucketName: BoldBlogger
+    bucketName: boldblogger
